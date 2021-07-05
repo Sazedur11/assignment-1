@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-banner{
+    display: flex;
+    padding-top: 6%;
+    padding-left: 6%;
+}
+.half-width{
+    width: 50%;
+    
+}
+h1{
+    font-family: 'Carter One', cursive;
+    font-size: 56px;
+    color: #575757;
+}
+.orange{
+    color: #fa9249;
+}
+.half-width p{
+    color: #828282;
+    margin-bottom: 65px;
+}
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 1px #fa9249;
+}
+.half-width img{
+    width: 80%;
+}
