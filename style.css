@@ -48,7 +48,46 @@ h1{
 .about-half{
     margin-top: 6%;
 }
+.image img{
+    margin-bottom: -5px;
+}
 h2{
     font-size: 36px;
     color: #707070;
 }
+h3{
+    font-size: 28px;
+}
+.section3{
+    padding-top: 6%;
+}
+.dev p{
+    text-align: center;
+}
+.dev h2{
+    text-align: center;
+}
+.three-column{
+    display: flex;
+    padding: 4% 6% 0 6%;
+}
+.col-3{
+    width:30%;
+    border: 20px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px #b6aca5;
+}
+.col-3 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.blog-1{
+    margin-right: 2%;
+}
+.blog-2{
+    margin: 0 3%;
+}
+.blog-3{
+    margin-left: 2%;
+}
+
