@@ -3,11 +3,55 @@ body{
     margin: 0;
     padding: 0;
 }
+.menu{
+    display: flex;
+    padding-top: 3%;
+}
+.logo-area{
+    width: 20%;
+    padding-left: 6%;
+}
+.logo-area img{
+    width: 30%;
+}
+.menu-area{
+    width: 80%;
+    padding-right: 6%;
+}
+.menu-area ul{
+	float: right;
+	margin: 0;
+	overflow: hidden;
+}
+.menu-area ul li{
+	display: inline-block;
+}
+.menu-area ul li a{
+	text-decoration: none;
+	color: orange;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	display: block;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	margin-right: 5px; 
+}
+.menu-area ul li:nth-child(1) a {
+	background: rgb(235 235 235 / 46%);
+}
+.menu-area ul li:last-child a{
+	margin-right: 0;
+}
+.menu-area ul li:hover a{
+	background: rgb(235 235 235 / 46%);
+}
+
 .top-banner{
     display: flex;
     padding-top: 6%;
     padding-bottom: 6%;
     padding-left: 6%;
+    background-color: rgb(235 235 235 / 46%);
 }
 .half-width{
     width: 50%;
@@ -69,7 +113,7 @@ h3{
 }
 .three-column{
     display: flex;
-    padding: 4% 6% 0 6%;
+    padding: 4% 6% 6% 6%;
 }
 .col-3{
     width:30%;
@@ -90,4 +134,11 @@ h3{
 .blog-3{
     margin-left: 2%;
 }
-
+footer{
+    background-color: #fdeaec;
+    padding: 10px 0 50px;
+    text-align: center;
+}
+footer p{
+    font-size: 14px;
+}
