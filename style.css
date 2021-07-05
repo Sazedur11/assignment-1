@@ -6,6 +6,7 @@ body{
 .top-banner{
     display: flex;
     padding-top: 6%;
+    padding-bottom: 6%;
     padding-left: 6%;
 }
 .half-width{
@@ -23,16 +24,31 @@ h1{
 .half-width p{
     color: #828282;
     margin-bottom: 65px;
+    line-height: 1.6;
 }
 .btn{
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     padding: 20px 40px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: radial-gradient(orange, tomato);
     border-radius: 50px;
     box-shadow: 1px 1px 20px 1px #fa9249;
 }
 .half-width img{
     width: 80%;
+}
+.about-section{
+    display: flex;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 6%;
+}
+.about-half{
+    margin-top: 6%;
+}
+h2{
+    font-size: 36px;
+    color: #707070;
 }
